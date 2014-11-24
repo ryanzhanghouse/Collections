@@ -1,8 +1,24 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family:"freight-sans-pro", "Myriad Pro", "Myriad",
+  font-family:"freight-sans-pro", "Myriad Pro", "Myriad", sans-serif
+  font-size: 15px
+  color: #57534a
+}
+a {
+  color: #423F37
+  text-decoration: none
+
+  &:hover {
+    color: #D32626
+  }
+}
+section {
+  position: absolute
+  width: 130px
+  left: 50%
+  top: 50%
+  text-align: center
 }
