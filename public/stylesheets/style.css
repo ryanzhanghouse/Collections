@@ -15,8 +15,18 @@ a {
     color: #D32626;
   }
 }
+
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
+}
+img {
+  border: none;
+}
+#avatar img {
+  display: inline-block;
+  background: #fff;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #EEE;
+  border-radius: 50%;
 }
