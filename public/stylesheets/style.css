@@ -1,32 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
 body {
-  font-family:"freight-sans-pro", "Myriad Pro", "Myriad", sans-serif;
-  font-size: 15px;
-  color: #57534a;
-}
-a {
-  color: #423F37;
-  text-decoration: none;
-
-  &:hover {
-    color: #D32626;
-  }
-}
-
-ul {
-  list-style: none;
-}
-img {
-  border: none;
-}
-#avatar img {
-  display: inline-block;
-  background: #fff;
-  width: 150px;
-  height: 150px;
-  border: 3px solid #EEE;
-  border-radius: 50%;
+  position: relative;
 }
